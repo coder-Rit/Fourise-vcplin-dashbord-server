@@ -11,7 +11,7 @@ const multer = require("multer");
 if (process.env.NODE_ENV !== "PRODUCTION") {
     require("dotenv").config({ path: "config/config.env" });
   }
-
+ 
 app.use(cors({
   credentials: true,
   origin:"http://127.0.0.1:5500"
